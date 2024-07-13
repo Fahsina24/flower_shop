@@ -20,9 +20,10 @@ padding:90px 40px 40px 100px;
      font-size: 45px;
      padding-bottom: 25px;
      }
- p{
+ p,h3{
           font-size: 20px;
           padding:0px 30px 20px 0px;
+          color:rgba(39, 39, 39, 0.8);
           }
  .text_container button {
           border-radius: 8px;
@@ -39,7 +40,6 @@ padding: 70px 100px 0px 0px;
 /* Featured Flower Section */
 
 .feature_text_container{
-     border: 1px solid green;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -53,7 +53,6 @@ padding: 70px 100px 0px 0px;
      display: flex;
      justify-content: center;
      height: 400;
-     border:1px solid pink;
      margin-top: 20px;
 }
 .img_holder .feature_img_content{
@@ -67,7 +66,6 @@ margin-top: 20px;
      height: 428px;
      width: 310px;
      margin: 0px 0px 30px 30px;
-
      border-radius:300px 300px 0px 0px;
      
 }
@@ -90,4 +88,20 @@ margin-top: 20px;
 }
 .img_holder a{
      color:black;
+     font-size:15px;
+     margin-bottom:80px;
+}
+.delivery_container{
+     display: flex;
+     justify-content: center;
+     margin:0px 90px 0px 115px;
+     border-radius: 8px;
+     background: rgba(39, 39, 39, 0.05);
+}
+.delivery_content {
+       text-align: center;
+       margin: 30px;
+}
+h3{
+     font-size: 15px;
 }
