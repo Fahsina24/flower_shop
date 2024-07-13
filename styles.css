@@ -4,22 +4,23 @@
      box-sizing: border-box;
      margin:0;
      padding:0;
+     max-width:1200px;
 }
+/* banner section */
 .banner_container{
 display: flex;
-max-width:1200px;
 height:570px;
-background-color:rgba(229, 84, 115, 0.1);
+background: rgba(229, 84, 115, 0.1);
 
 }
 .text_container{
 padding:90px 40px 40px 100px;
 }
-.text_container h1{
+ h1{
      font-size: 45px;
      padding-bottom: 25px;
      }
- .text_container p{
+ p{
           font-size: 20px;
           padding:0px 30px 20px 0px;
           }
@@ -27,9 +28,66 @@ padding:90px 40px 40px 100px;
           border-radius: 8px;
           background: rgb(229, 84, 115);
           padding: 20px;
-          border: none;
           font-size: 20px;
+          color:white;
+          border: none;
      }
 .img_container{
 padding: 70px 100px 0px 0px;
+}
+
+/* Featured Flower Section */
+
+.feature_text_container{
+     border: 1px solid green;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top:50px;
+     padding-top:20px;
+}
+.feature_text_container p{
+     text-align: center;
+}
+.img_holder{
+     display: flex;
+     justify-content: center;
+     height: 400;
+     border:1px solid pink;
+     margin-top: 20px;
+}
+.img_holder .feature_img_content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+.img_holder img{
+     height: 428px;
+     width: 310px;
+     margin: 0px 0px 30px 30px;
+
+     border-radius:300px 300px 0px 0px;
+     
+}
+.feature_img_one{
+     background: rgba(167, 33, 98, 0.15);
+     padding: 100px 45px 0px ;
+     
+}
+.feature_img_two{
+    
+     background: rgba(5, 151, 160, 0.15);
+     padding: 100px 45px 40px ;
+     
+}
+.feature_img_three{
+
+     background: rgba(71, 125, 17, 0.15);
+     padding: 100px 45px 0px;
+     
+}
+.img_holder a{
+     color:black;
 }
