@@ -6,17 +6,16 @@
      padding:0;
      max-width:1200px;
 }
-/* banner section */
-.banner_container{
-display: flex;
-height:570px;
-background: rgba(229, 84, 115, 0.1);
-
+/* shared designs */
+.btn {
+     border-radius: 8px;
+     background: rgb(229, 84, 115);
+     padding: 20px;
+     font-size: 20px;
+     color:white;
+     border: none;
 }
-.text_container{
-padding:90px 40px 40px 100px;
-}
- h1{
+h1{
      font-size: 45px;
      padding-bottom: 25px;
      }
@@ -25,14 +24,17 @@ padding:90px 40px 40px 100px;
           padding:0px 30px 20px 0px;
           color:rgba(39, 39, 39, 0.8);
           }
- .text_container button {
-          border-radius: 8px;
-          background: rgb(229, 84, 115);
-          padding: 20px;
-          font-size: 20px;
-          color:white;
-          border: none;
-     }
+
+/* banner section */
+.banner_container{
+display: flex;
+
+background: rgba(229, 84, 115, 0.1);
+}
+.text_container{
+padding:90px 40px 40px 100px;
+}
+ 
 .img_container{
 padding: 70px 100px 0px 0px;
 }
@@ -104,4 +106,32 @@ margin-top: 20px;
 }
 h3{
      font-size: 15px;
+}
+
+/* Hot Sales Section */
+span{
+     color:rgb(229, 84, 115);
+}
+.hot_sales_container{
+     background:rgba(229, 84, 115, 0.05);
+     border-radius: 8px;
+     margin-top: 150px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.hot_sale_content{
+     display: flex;
+     height:600px;
+     width:1100px;
+     justify-content: center;
+     align-items: center;
+}
+
+.hot_sale_text_part {
+     text-align: center;
+     padding: 120px 0px 80px 0px;
+     margin-right: 60px;
 }
