@@ -121,7 +121,9 @@ span{
      align-items: center;
      
 }
-
+.shop{
+     color:rgb(255, 255, 255);
+}
 .hot_sale_content{
      display: flex;
      height:600px;
@@ -134,4 +136,70 @@ span{
      text-align: center;
      padding: 120px 0px 80px 0px;
      margin-right: 60px;
+}
+
+/* Instagram Section */
+.instagram_container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+}
+.insta_img_container{
+     display: flex;
+     margin: 20px 300px 30px 110px;
+     width: 1000px;
+}
+.insta_img_container img{
+     margin-right:20px;
+     width:230px;
+}
+
+/* Greatest Deal Section */
+
+.greatest_deal{
+     background-image: url(images/latest-deals-bg.png);
+     background-size:cover;
+     background-repeat: no-repeat;
+     margin: 100px 110px;
+     border-radius: 8px;
+     width: 980px;
+     height: 300px;
+
+}
+
+.greatest_deal_container{
+      border:1px solid blue;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin:40px auto;
+      height:200px;
+      width: 600px;
+}
+
+/* Footer Section */
+.footer_container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background: rgb(17, 16, 16);
+     margin-top: 150px;
+     height: 500px;
+}
+
+.footer_container h1{
+     padding-top:80px;
+     font-size:48px;
+}
+
+.footer_container p{
+     color: rgba(255, 255, 255, 0.9);
+     text-align: center;
+}
+.footer_container h5{
+     color:rgba(255, 255, 255, 0.4);
 }
